@@ -884,7 +884,7 @@
     </div>
   </button>
 
-  <button class="emergency-btn green" onclick="openLink('https://wa.me/6285xxxxxxxxx?text=Ilma+butuh+bantuan')">
+  <button class="emergency-btn green" onclick="openLink('https://wa.me/6285183520994?text=Ilma+butuh+bantuan')">
     <span class="emergency-btn-icon">💬</span>
     <div>
       <div>WhatsApp Afdal</div>
@@ -1451,7 +1451,7 @@ function shareLocation() {
   navigator.geolocation.getCurrentPosition(pos => {
     const { latitude: lat, longitude: lng } = pos.coords;
     const url = `https://maps.google.com/?q=${lat},${lng}`;
-    const waUrl = `https://wa.me/6285xxxxxxxxx?text=📍 Lokasi Ilma saat ini: ${url}`;
+    const waUrl = `https://wa.me/6285183520994?text=📍 Lokasi Ilma saat ini: ${url}`;
     openLink(waUrl);
   }, () => alert('Tidak dapat mendapatkan lokasi'));
 }
